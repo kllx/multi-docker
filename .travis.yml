@@ -9,6 +9,7 @@ before_install:
 script:
   - docker run thefueley/react-test npm test -- --coverage
 
+
 after_success:
   - docker build -t kllx/multi-client ./client
   - docker build -t kllx/multi-nginx ./nginx
