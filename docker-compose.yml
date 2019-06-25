@@ -2,9 +2,8 @@ version: '3'
 services: 
   postgres:
     image: 'postgres:latest'
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: password
+    ports: 
+      - '5432:5432'
   redis:
     image: 'redis:latest'
   nginx:

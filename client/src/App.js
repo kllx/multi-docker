@@ -9,8 +9,8 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <h1>Fib Calculator</h1>
-          <Link to='/'>Home</Link><br/>
+          <h1 className="App-title">Fib Calculator</h1>
+          <Link to='/'>Homeee</Link><br/>
           <Link to='/otherpage'>Other Page</Link>
         </header>
         <div>
